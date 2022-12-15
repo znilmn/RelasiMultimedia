@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="PUBLIC_URL/favicon.co" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Relasi Multimedia</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/foto/whitelogo.png" alt="logo" class="logo-img" />
+                <h1 class="description">RELASI MULTIMEDIA</h1>
+            </div>
+                <nav>
+                    <ul>
+                        <li><a href="#jasa">JASA</a></li>
+                        <li><a onclick="redirWhatsapp()">KONTAK</a></li>
+                        <li><a onclick="redirInstagram()">FOLLOW KAMI</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="container">
+            <div class="produk">
+                <div class="card1">
+                    <img src="assets/foto/kaos1.png" alt="Avatar" style="width:100%">
+                    <div class="container1">
+                        <h4><b>KAOS CUSTOM</b></h4>
+                        <p>Rp.45.000-Rp.100.000</p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="assets/foto/hudi.png" alt="Avatar" style="width:100%">
+                    <div class="container1">
+                        <h4><b>HOODIE</b></h4>
+                        <p>Rp.150.000</p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="assets/foto/jersey.png" alt="Avatar" style="width:100%">
+                    <div class="container1">
+                        <h4><b>JERSEY</b></h4>
+                        <p>Rp.70.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="tentang">
+                <p class="title">Tekan Tombol Di Bawah Untuk Memesan</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()" >pesan disini</button>
+                </div>
+            </div>
+            <div class="container">
+                    <div class="card" id="jasa">
+                        <div class="card-item">
+                            <img src="assets/icons/best-price.png" alt icon="icon 1" class="icon" />
+                            <p class="card-title">HARGA TERMURAH</p>
+                            <p class="card-description">harga produk kami adalah harga termurah dibandingkan pesaing</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/icons/lokasi-logo-25356.png" alt icon="icon 2" class="iconl" />
+                            <p class="card-title">Winduaji Paguyangan Brebes</p>
+                            <p class="card-description">RT 10 RW 04 Dibawah Tower</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/icons/rating.png" alt icon="icon 3" class="icon" />
+                            <p class="card-title">MEREKA PUAS</p>
+                            <p class="card-description">mereka sangat puas menggunakan jasa kami</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div>
+            <footer>
+                <p class="title">&copy;relasimultimedia</p>
+            </footer>
+            <script>
+                function redirInstagram() {
+                    window.location.href = "https://www.instagram.com/relasimultimedia/"
+                }
+
+                function redirWhatsapp() {
+                    window.location.href = "https://wa.me/+6285226730193"
+                }
+            </script>
+        </div>
+    </body>
+</html>
